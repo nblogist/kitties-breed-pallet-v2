@@ -6,7 +6,6 @@ This is a design document submitted for substrate developer academy assignment 3
 ## Storage (decl_storage!)
 
     * kitties: double_map (kitty_dna: u128, owner: AccountId )  => kitty_id:u32
-<!-- types look like TS, not RUST but made it to convey better -->
 
 ## Events (decl_event!)
 
@@ -16,7 +15,6 @@ This is a design document submitted for substrate developer academy assignment 3
 ## Errors (decl_error!)
 
     * GenderMismatchForBreeding,
-  <!-- tbh I don't think we'd ever encounter this error, but I guess for the hygiene, and in case any 2 random dna match (astronomical chances tho) -->
 
 ## Calls (decl_module!)
 

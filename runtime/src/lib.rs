@@ -265,7 +265,7 @@ impl pallet_sudo::Trait for Runtime {
 impl pallet_template::Trait for Runtime {
 	type Event = Event;
 }
-
+// ! setp 3
 impl pallet_kitties::Trait for Runtime {
 	type Event = Event;
 }
@@ -287,7 +287,7 @@ construct_runtime!(
 		Sudo: pallet_sudo::{Module, Call, Config<T>, Storage, Event<T>},
 		// Include the custom logic from the template pallet in the runtime.
 		TemplateModule: pallet_template::{Module, Call, Storage, Event<T>},
-		// Substrate Kitties module
+		// Substrate Kitties module // ! step 4
 		Kitties: pallet_kitties::{Module, Storage, Call, Event<T>},
 	}
 );

@@ -5,7 +5,7 @@ This is a design document submitted for substrate developer academy assignment 3
 
 ## Storage (decl_storage!)
 
-    * kitties: double_map (kitty_dna: u128, owner: AccountId )  => kitty_id:u32
+    * kitties: double_map (owner: AccountId, kitty_dna: u128)  => Option<Kitty>
 
 ## Events (decl_event!)
 

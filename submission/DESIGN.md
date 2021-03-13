@@ -18,4 +18,4 @@ This is a design document submitted for substrate developer academy assignment 3
 
 ## Calls (decl_module!)
 
-    * fn breed(origin, dad_dna: u128, mom_dna: u128)
+    * fn breed(origin, dad_id: u128, mom_id: u128)
